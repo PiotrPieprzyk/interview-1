@@ -32,6 +32,7 @@ body {
 
 
 label {
+    width: 100%;
     position: relative;
 }
 
@@ -107,7 +108,7 @@ button:active {
 
 
 @container card (width > 630px) {
-    input {
+    label {
         width: 333px;
     }
     .card__header {
