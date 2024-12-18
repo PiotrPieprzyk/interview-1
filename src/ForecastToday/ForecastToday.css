@@ -1,0 +1,62 @@
+.forecast__today {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.forecast__today__image__wrapper {
+    width: 195px;
+    height: 140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    img {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+}
+
+
+.forecast__today__info__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.forecast__today__info__temperature {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.forecast__today__info__city {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.forecast__today__info__day {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*
+    The @container at-rule is used to define the styles that apply when the container size is within a certain range.
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@container
+ */
+@container (width > 400px){
+    .forecast__today {
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        margin-bottom: 56px;
+    }
+}
+
+
+
+
+    
